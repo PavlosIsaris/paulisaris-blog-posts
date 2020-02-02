@@ -4,7 +4,8 @@ date: "2020-02-02"
 tags: [agile]
 image: img/posts/scrum-events-the-sprint.jpg
 ---
-
+ post photo by [pexels](https://www.pexels.com/)
+ 
 # Introduction
 
 This post is the first part of the "Scrum events demystified" post series.
@@ -15,9 +16,9 @@ First things first, let's begin by defining Scrum:
 According to the [Scrum Guide](https://www.scrum.org/resources/scrum-guide):
 
 > Scrum (n): A framework within which people can address complex adaptive problems, while
-  productively and creatively delivering products of the highest possible value.
-  Scrum is a process framework that has been used to manage work on complex products since the early 1990s. Scrum is not a process, technique, or definitive method. Rather, it is a
-  framework within which you can employ various processes and techniques. Scrum makes clear the relative efficacy of your product management and work techniques so that you can continuously improve the product, the team, and the working environment.
+  productively and creatively delivering products of the highest possible value.<br/><br/>
+  Scrum is a process framework that has been used to manage work on complex products since the early 1990s.<br/><br/>Scrum is not a process, technique, or definitive method. Rather, it is a
+  framework within which you can employ various processes and techniques. <br/><br/>Scrum makes clear the relative efficacy of your product management and work techniques so that you can continuously improve the product, the team, and the working environment.
 
 Indeed, Scrum is successfully used for many years now, from teams that want to carry out risky projects in an Agile way.
  A critical part of the Scrum methodology is the Scrum Events. 
@@ -105,6 +106,7 @@ which Product Backlog Items will help achieve this objective.
 ***Can the Sprint Goal change during the Sprint?***
 
 **No.** As the Scrum Guide states:
+
 > No changes are made that would endanger the Sprint Goal.
 
 If the Sprint Goal becomes obsolete or does not make sense anymore, 
