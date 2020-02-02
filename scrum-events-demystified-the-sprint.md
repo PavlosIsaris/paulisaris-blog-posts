@@ -31,13 +31,17 @@ Indeed, Scrum is successfully used for many years now, from teams that want to c
  2. Developers wondering what they did to deserve one more PowerPoint presentation
  3. A ton of calories gained from the pastries that are usually served
  
-Today I will be presenting the heart of Scrum, 
-the most important of all Scrum events; ***The Sprint***.
+
+![Meeting gif](https://media.giphy.com/media/3o6MbiSDt6PKFUyrlK/giphy.gif "Meeting gif")
+
+
+Today I will be presenting the heart of 
+Scrum, the most important of all Scrum events; ***The Sprint***.
+
 
 ***Disclaimer:*** Some might argue that the Sprint is **, not
  an event itself** since it merely acts as a **container** for all other 
  Scrum events. This, of course, is true, but it is beneficial to treat it as an event (or a pseudo-event) to get a better grasp of what Scrum is about. 
- 
  
 ![Agile gif](https://media.giphy.com/media/xT1XGOGdyDrL2BTfxK/giphy.gif "Agile gif")
 
@@ -70,6 +74,7 @@ by the whole **Scrum Team**.
 
 ![Scrum gif](https://www.go2group.com/wp-content/uploads/2019/09/Meme-1.gif "Scrum gif")
 
+
 # Most common questions and misconceptions about Sprints
 
 ***What is the maximum time for a Sprint? Can the team have 2-month Sprints?***
@@ -99,9 +104,8 @@ For a Sprint to start, the team needs 3 things:
    This has to do with the **Definition of Done** the team has set for 
    the project and should be flexible enough to tolerate unexpected changes, 
    and evolve with them during the Sprint.
-   
-![Organized gif](https://media.giphy.com/media/PbFp1FmxteXsc/giphy.gif "Organized gif")
 
+![Team gif](https://media.giphy.com/media/l4EoRqcypxsvGuRk4/giphy.gif "Team gif")
    
 ***Who is responsible for defining the Sprint Goal for a given Sprint?***
 
@@ -144,8 +148,8 @@ When the time is over, the Sprint is over as well. Any unfinished tasks
 do not count as part of the Sprint output and are put back into the Product 
 Backlog. <br/>Usually, these tasks will be brought into the Sprint Backlog of the next Sprint, for the Development Team to finally complete them.
 
-
 ![Flexible gif](https://media.giphy.com/media/Rn1nEzE4BTdC0/giphy.gif "Flexible gif")
+
 
 ***What happens between 2 Sprints?***
 
