@@ -88,17 +88,14 @@ than that decreases focus and should be broken into multiple Sprints.
 For a Sprint to start, the team needs 3 things:
 
 1. ***A Sprint Goal***
-
    The Sprint Goal is set during the Sprint planning and should not change during the Sprint. It describes what the output of the Sprint 
    should be and is agreed upon by the whole team
    
 2. ***A Sprint Backlog***
-
    The Sprint Backlog is the collection of tasks that should be done during the Sprint. They are picked from the Development 
    Team by looking at what the Product Owner has prioritized in the Product Backlog.
    
 3. ***A General plan of how the team should do the work***
-
    During Sprint Planning, the team decides not only what should 
    be done during the Sprint, but ***how*** things should be done.<br/> 
    This has to do with the **Definition of Done** the team has set for 
