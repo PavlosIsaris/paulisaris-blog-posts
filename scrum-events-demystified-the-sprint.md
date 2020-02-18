@@ -1,7 +1,7 @@
 ---
 title: "Scrum Events demystified - The Sprint"
 date: "2020-02-02"
-tags: [agile]
+tags: [agile, scrum]
 image: img/posts/scrum-events-the-sprint.jpg
 ---
  post photo by [pexels](https://www.pexels.com/)
