@@ -94,7 +94,7 @@ As stated in the previous step, it is a common thing for virtual meetings to res
 
 It's important to resist the urge to do so! Remember, participating in a meeting -whether virtual or not- means that you have the responsibility to be present in your full professional "outfit". After all, you might miss something really important which will probably result in numerous other meetings and e-mails!
 
-#### 10. Be tolerant of expected chaos  
+#### 10. There will be chaos. And that's OK!  
 
 Sure, everybody will try their best for the meeting to be as efficient and productive as possible. However, bear in mind that chaos (either technical or not) should be expected.
 
