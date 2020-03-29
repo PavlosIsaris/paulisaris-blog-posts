@@ -9,7 +9,7 @@ image: img/posts/tips-productive-virtual-meeting.jpg
 
 # Introduction
 
-It's this strange time of the "Social distancing", because of the COVID-19 bizarre situation.
+It's this strange time of the "Social distancing era", because of the COVID-19 bizarre situation.
 Regardless of how long this lasts or whatever the world will look like after it ends, it is for sure an interesting time to be alive and trying to make a living through a pandemic.
 
 We, as developers, are fortunate enough to be able to still work with little to no severe impacts
