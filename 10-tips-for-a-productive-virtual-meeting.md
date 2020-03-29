@@ -1,7 +1,7 @@
 ---
 title: "10 Tips For a Productive Virtual Meeting"
 date: "2020-03-30"
-tags: [productivity]
+tags: [career,productivity]
 image: img/posts/tips-productive-virtual-meeting.jpg
 ---
 
@@ -10,6 +10,7 @@ image: img/posts/tips-productive-virtual-meeting.jpg
 # Introduction
 
 It's this strange time of the "Social distancing", because of the COVID-19 bizarre situation.
+Regardless of how long this lasts or whatever the world will look like after it ends, it is for sure an interesting time to be alive and trying to make a living through a pandemic.
 
 We, as developers, are fortunate enough to be able to still work with little to no severe impacts
 in our everyday tasks and projects. Most of us have set-up our homework offices, poured ourselves a cup of
