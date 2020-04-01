@@ -105,4 +105,8 @@ And you know what?
 This is perfectly fine. As developers, we are experienced in working with technical difficulties and finding alternate solutions to our problems: Skype is not working? Let's all switch to Zoom. Microphone not working? Fine, write in the chatbox. 
 The whole meeting thing is not working? Fine, let's either organize another time for it or compress it in an e-mail (after all, most meetings should have been e-mails, right?)
 
+# Conclusion
+
+In these strange yet important times, it is more vital than ever that we are able to prove that technology is helping things keep moving and we -as a purely technological field- are obliged to do so.
+
 What are your thoughts on virtual meetings?
