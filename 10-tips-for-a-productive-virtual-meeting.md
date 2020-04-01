@@ -2,10 +2,10 @@
 title: "10 Tips For a Productive Virtual Meeting"
 date: "2020-03-30"
 tags: [career,productivity]
-image: img/posts/tips-productive-virtual-meeting.jpg
+image: img/posts/tips-productive-virtual-meeting2.jpg
 ---
 
- post photo by [pexels](https://www.pexels.com/)
+ Photo by [John Schnobrich](https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com)
 
 # Introduction
 
