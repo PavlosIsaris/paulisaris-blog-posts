@@ -2,7 +2,7 @@
 title: "How to introduce a new developer to a project"
 date: "2020-08-16"
 tags: [productivity]
-image: img/posts/how-to-introduce-a-new-dev-to-a-project.jpg
+image: img/posts/how-to-introduce-a-new-dev-to-a-project-1.jpg
 ---
 
  post photo by [pexels](https://www.pexels.com/)
