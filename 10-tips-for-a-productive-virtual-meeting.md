@@ -2,10 +2,10 @@
 title: "10 Tips For a Productive Virtual Meeting"
 date: "2020-03-30"
 tags: [career,productivity]
-image: img/posts/tips-productive-virtual-meeting.jpg
+image: img/posts/tips-productive-virtual-meeting2.jpg
 ---
 
- post photo by [pexels](https://www.pexels.com/)
+ Photo by [John Schnobrich](https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com)
 
 # Introduction
 
@@ -104,5 +104,9 @@ And you know what?
 
 This is perfectly fine. As developers, we are experienced in working with technical difficulties and finding alternate solutions to our problems: Skype is not working? Let's all switch to Zoom. Microphone not working? Fine, write in the chatbox. 
 The whole meeting thing is not working? Fine, let's either organize another time for it or compress it in an e-mail (after all, most meetings should have been e-mails, right?)
+
+# Conclusion
+
+In these strange yet important times, it is more vital than ever that we are able to prove that technology is helping things keep moving and we -as a purely technological field- are obliged to do so.
 
 What are your thoughts on virtual meetings?
