@@ -37,18 +37,18 @@ There is neither mention of the three questions during the Daily Scrum, nor of t
 Also, the obvious is no longer stated: **Scrum is indeed not trivial to master**.
 
 # In a bigger nutshell
-## Changes that are worth mentioning
+### Changes that are worth mentioning
 
 Here are the bolder changes that are worth to review and reflect on:
 
-## 1. No mention of the three questions during the Daily Scrum
+### 1. No mention of the three questions during the Daily Scrum
    OK, let's begin with the elephant in the room. No more 3 questions imposed in the Daily Scrum meeting!
    
    Even in the 2017 versions, the three questions “What did I do yesterday that helped the Development Team meet the Sprint Goal?” and so on, were optional. 
    
    This means that the "Developers" (since **there is no more a "Development Team"**), can follow any structure they want, provided that it focuses on the plan for the day.
    
-## 2. No more Development Team
+### 2. No more Development Team
    That's right! The Development Team is no more. Long live the **"Developers"**!
    
    This aims to **eliminate the team within a team** (often forming a silo) and normalize the often alienated relationship between the Product Owner and the Development Team.
@@ -56,7 +56,7 @@ Here are the bolder changes that are worth to review and reflect on:
    Additionally, this change was to **increase responsibility** for the Product as one team and not just as the Product Owner.<br/>
    Every member of the Scrum Team has the responsibility of the Product being built!
    
-## 3. A brand new Sprint Planning
+### 3. A brand new Sprint Planning
    Since 2017, the focus on Sprint Planning was on "what we are building", and "how we are building it"
    The Sprint Planning in 2020 has been enriched with a third topic - **Why**:
    
@@ -66,7 +66,7 @@ Here are the bolder changes that are worth to review and reflect on:
    
    Read more [here](https://www.scrum.org/resources/blog/why-what-how-sprint-planning).
    
-## 4. “Done” now creates a Product Increment
+### 4. “Done” now creates a Product Increment
    This change was made to embrace the quality of work. 
    
    According to the new guide:
@@ -75,7 +75,7 @@ Here are the bolder changes that are worth to review and reflect on:
     
    The moment a Product Backlog item meets the Definition of Done, an Increment is born."
    
-## 5. Definition of Done Created By Scrum Team
+### 5. Definition of Done Created By Scrum Team
    Alright, so this is a big change. 
    
    From the 2020 Scrum Guide:
@@ -91,13 +91,13 @@ So, next time you are planning your Scrum and defining the Definition of Done, d
 
 Read more [here](https://www.scrum.org/resources/blog/2020-scrum-guide-definition-done-created-scrum-team).
    
-## 6. Don't present partially done items in the Sprint Review
+### 6. Don't present partially done items in the Sprint Review
    That's right. we already knew that partially "Done" items **were not accepted as part of the Increment**. <br/>But, this version of the guide goes a step further: **Don't present them**, and never speak about them until they are "Done".
    
 >"The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. <br/>
    The moment a Product Backlog item meets the Definition of Done, an Increment is born."
    
-## 7. A new term: The Product Goal
+### 7. A new term: The Product Goal
    As [the new guide states](https://www.scrum.org/resources/blog/scrum-guide-2020-update-introducing-product-goal), there is a new kid around the block! 
    
 >"The Product Goal describes a future state of the product which can serve as a target for the Scrum Team to plan against. […] The Product Goal is the long-term objective of the Scrum Team."
@@ -111,7 +111,7 @@ Don't freak out, the Product Goal is not entirely new, since Scrum teams had a g
    
    So think of it more as a **1-sentence way** of describing the whole product, and why you are building it!
    
-## 8. Don't treat Sprint Review as a "Release Gate"
+### 8. Don't treat Sprint Review as a "Release Gate"
    Many Scrum teams have shifted from constructive Sprint reviews to "Release Gates", making the Sprint Review just a meeting to tell the Product Owner "You can go ahead and release the increment now!". 
    
    The new Scrum guide addresses this by stating that 
@@ -120,14 +120,14 @@ Don't freak out, the Product Goal is not entirely new, since Scrum teams had a g
 
 So use the Sprint Review to learn and reflect, and detach it from the release cycle.
    
-## 9. New Product Explanation
+### 9. New Product Explanation
    With a brand new Product Explanation, it becomes clear that Scrum now shifts beyond just software. In my opinion, it won't be long before we see Scrum implemented widely in non-software teams, as well.
    
 >"A product is a vehicle to deliver value.<br/>
 >It has a clear boundary, known stakeholders, well-defined users, or customers.<br/>
 >A product could be a service, a physical product, or something more abstract."
    
-## 10. Servant leadership no longer mentioned
+### 10. Servant leadership no longer mentioned
 Even if servant leadership is not mentioned directly, I don't think that the authors aim to shape Scrum Masters to be anything else than servant leaders.
 
 The new guide describes the Scrum Master as following: 
@@ -136,13 +136,13 @@ The new guide describes the Scrum Master as following:
     
 It is now likely that the "Scrum Master" job title will include a job description that is larger than the accountabilities described in the Scrum Guide since it is treated as an organization leader role.
     
-## 11. The spotlight is on the Scrum team
+### 11. The spotlight is on the Scrum team
 
 >"The Scrum Team is responsible for all product-related activities from stakeholder collaboration, verification, maintenance, operation, experimentation, research and development, and anything else that might be required."
 
 This is a more holistic approach than the previous version had. Now, it is clearly stated that it's not only developers who bear responsibility for the product, **but the team as a whole**!
     
-## 12. "Commitments"
+### 12. "Commitments"
 The Product Goal, the Sprint Goal, and the Definition of Done are now mentioned as [**"Commitments"**](https://www.scrum.org/resources/blog/scrum-guide-2020-update-commitments). 
 
 This is a bridge to connect **Scrum Values** (commitment, focus, respect, courage, openness) with the "Scrum Empiricism": Transparency, Inspection, and Adaptation. 
