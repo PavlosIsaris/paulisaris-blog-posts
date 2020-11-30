@@ -30,11 +30,18 @@ You can also see a side-by-side comparison of the new Scrum Guide [here](https:/
 The new Scrum guide adopted a **simpler language** and generally **removed software-specific terminology**.<br/>
 The authors also reduced it's size, from 19 pages in 2017, to 14 pages.
 
+#### No more "3 questions", no servant-leadership
 The Scrum Guide is now less prescriptive, and more direct.<br/>
 It eliminates many suggestions such as the **Daily Scrum questions**, removes the "at least one mandatory action item from the Retrospective becoming a part of the Sprint Backlog" part as well as the advice on why Sprint cancelations are rare events. 
 
 There is neither mention of the three questions during the Daily Scrum, nor of the term "servant leadership" of the Scrum Master.<br/>
-Also, the obvious is no longer stated: **Scrum is indeed not trivial to master**.
+
+#### No mention of "agile"
+A very interesting fact though, is that there is not mention of the ***"agile"*** word!<br/>
+Instead, there is an abvious shift towards getting Scrum to follow the ***"lean"*** principle.<br/>
+
+#### Main motto not stated
+Also, the obvious is **no** longer stated: **Scrum is indeed not trivial to master**.
 
 # In a bigger nutshell
 ### Changes that are worth mentioning
@@ -71,9 +78,8 @@ Here are the bolder changes that are worth to review and reflect on:
    
    According to the new guide:
    
-> "The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. 
-    
-   The moment a Product Backlog item meets the Definition of Done, an Increment is born."
+> "The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product. <br/>
+>The moment a Product Backlog item meets the Definition of Done, an Increment is born."
    
 ### 5. Definition of Done Created By Scrum Team
    Alright, so this is a big change. 
