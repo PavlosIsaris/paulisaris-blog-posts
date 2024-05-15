@@ -2,10 +2,34 @@
 title: "Windows Command Line Revolution: Unleash ZSH and Oh My ZSH!: A Developer's Guide"
 date: "2024-04-30"
 tags: [ tools,productivity ]
-image: img/zsh-for-windows.jpg
+image: img/zsh_for_windows_logo.jpg
 ---
 
 # Windows Command Line Revolution: Unleash ZSH and Oh My ZSH!: A Developer's Guide
+
+## TL;DR
+
+In this guide, we'll walk you through the installation and configuration of ZSH and Oh My ZSH on Windows, so you can
+enjoy the power and flexibility of these tools without leaving the comfort of your Windows environment.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Embracing ZSH on Windows](#embracing-zsh-on-windows)
+    - [Introducing ZSH: The Ultimate Shell Experience](#introducing-zsh-the-ultimate-shell-experience)
+    - [Supercharge ZSH with Oh My ZSH!](#supercharge-zsh-with-oh-my-zsh)
+- [Installation and Configuration of ZSH in Windows](#installation-and-configuration-of-zsh-in-windows)
+    - [Install Git + Git Bash for Windows](#install-git--git-bash-for-windows)
+    - [Download ZSH](#download-zsh)
+    - [Install ZSH](#install-zsh)
+    - [Verify the ZSH Installation](#verify-the-zsh-installation)
+    - [Set ZSH as the Default Shell](#set-zsh-as-the-default-shell)
+    - [Fix Displaying of Unexpected Characters](#fix-displaying-of-unexpected-characters)
+- [Installation and Configuration of Oh My ZSH! on Windows](#installation-and-configuration-of-oh-my-zsh-on-windows)
+    - [Installation of Oh My ZSH!](#installation-of-oh-my-zsh)
+    - [Customization of Oh My ZSH!](#customization-of-oh-my-zsh)
+        - [Fonts](#fonts)
+        - [Theme](#theme)
 
 ## Introduction
 
@@ -23,22 +47,11 @@ enjoy the power and flexibility of these tools without leaving the comfort of yo
 
 ## Embracing ZSH on Windows
 
-### Bash for Windows: Your Gateway to ZSH
-
-![Git + Bash for Windows](bash_for_windows.jpg)
-*Image description: A screenshot of Bash for Windows logo.*
-
-Before we dive into the world of ZSH, let's talk about Bash for Windows.
-It is the minimal viable solution for running commands on Windows, being slightly more powerful than the traditional and
-dreaded CMD.
-
-In this tutorial we will install and use ZSH on top of Git Bash for Windows, which is a lightweight shell that provides
-a much improved experience over the default Windows command prompt.
-
 ### Introducing ZSH: The Ultimate Shell Experience
 
-![ZSH](zsh_logo.jpg)
-*Image description: ZSH logo depicting a snail.*
+![ZSH](img/Z_Shell_Logo_Color_Horizontal.jpg)
+
+*Image description: ZSH logo.*
 
 `ZSH`, or ***Z Shell***, is a powerful command interpreter for UNIX-like operating systems. It offers advanced features
 such as
@@ -47,14 +60,14 @@ swear by ZSH as their preferred shell.
 
 ### Supercharge ZSH with Oh My ZSH!
 
-![Oh My ZSH!](oh_my_zsh.jpg)
+![Oh My ZSH!](img/omz-eastwood.png)
 *Image description: Oh My ZSH! logo featuring a cute cartoon character with a command prompt.*
 
 But what truly takes ZSH to the next level is Oh My ZSH! This open-source framework for managing ZSH configurations
 comes packed with a plethora of themes, plugins, and helpers. Whether you're a seasoned developer or just getting
 started, Oh My ZSH! will undoubtedly enhance your command line experience.
 
-## Installation and Configuration of ZSH
+## Installation and Configuration of ZSH in Windows
 
 Now that we understand the components, let's get down to business. Here's how you can install and configure ZSH and Oh
 My ZSH! on your Windows machine without the need for WSL.
@@ -68,6 +81,15 @@ Git for Windows installer [here](https://git-scm.com/download/win).
 Git Bash is needed so that we also have the `bash` shell available, which is required for ZSH to run, and also for
 having the `~/.bashrc` file available.
 The `~/.bashrc` file is installed at `C:\Users\<your user name>\.bashrc`.
+
+**IMPORTANT**: Make sure to select the option to use Git from the Windows Command Prompt during the installation.
+
+**ALSO IMPORTANT**: When opening the Windows Terminal app, make sure to select the Git Bash profile as the default
+terminal profile! (Select it from the dropdown menu in the top right corner of the terminal window), and then set it as
+default in the Settings.
+
+![Git Bash in Windows Terminal](img/git_bash_default_terminal.png)
+*Image description: Selecting Git Bash as a terminal profile*
 
 ### Download ZSH
 
@@ -130,7 +152,7 @@ Download and install manually
 the [Meslo Nerd Fonts](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) to include
 all glyphs and symbols that `Powerlevel10k` may need
 
-### Theme
+#### Theme
 
 There are a lot of themes, with [Powerlevel10k](https://github.com/romkatv/powerlevel10k) being the most popular and
 powerful. To install it, run:
