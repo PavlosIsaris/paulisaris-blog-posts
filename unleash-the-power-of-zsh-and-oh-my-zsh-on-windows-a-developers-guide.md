@@ -1,11 +1,13 @@
 ---
-title: "Windows Command Line Revolution: Unleash ZSH and Oh My ZSH!: A Developer's Guide"
-date: "2024-04-30"
+title: "Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!
+date: "2024-05-15"
 tags: [ tools,productivity ]
-image: img/zsh_for_windows_logo.jpg
+image: img/zsh_for_windows_post_cover.jpg
 ---
 
-# Windows Command Line Revolution: Unleash ZSH and Oh My ZSH!: A Developer's Guide
+# Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!
+
+*article photo Photo by <a href="https://unsplash.com/@andrewtneel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Neel</a> on <a href="https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
 
 ## TL;DR
 
@@ -16,31 +18,36 @@ enjoy the power and flexibility of these tools without leaving the comfort of yo
 
 - [Introduction](#introduction)
 - [Embracing ZSH on Windows](#embracing-zsh-on-windows)
-    - [Introducing ZSH: The Ultimate Shell Experience](#introducing-zsh-the-ultimate-shell-experience)
-    - [Supercharge ZSH with Oh My ZSH!](#supercharge-zsh-with-oh-my-zsh)
-- [Installation and Configuration of ZSH in Windows](#installation-and-configuration-of-zsh-in-windows)
-    - [Install Git + Git Bash for Windows](#install-git--git-bash-for-windows)
-    - [Download ZSH](#download-zsh)
-    - [Install ZSH](#install-zsh)
-    - [Verify the ZSH Installation](#verify-the-zsh-installation)
-    - [Set ZSH as the Default Shell](#set-zsh-as-the-default-shell)
-    - [Fix Displaying of Unexpected Characters](#fix-displaying-of-unexpected-characters)
-- [Installation and Configuration of Oh My ZSH! on Windows](#installation-and-configuration-of-oh-my-zsh-on-windows)
-    - [Installation of Oh My ZSH!](#installation-of-oh-my-zsh)
-    - [Customization of Oh My ZSH!](#customization-of-oh-my-zsh)
-        - [Fonts](#fonts)
-        - [Theme](#theme)
+  - [Introducing ZSH: The Ultimate Shell Experience](#introducing-zsh-the-ultimate-shell-experience)
+  - [Oh My ZSH!: ZSH Supercharged](#oh-my-zsh-zsh-supercharged)
+- [Step 1: Install Git + Git Bash for Windows](#step-1-install-git--git-bash-for-windows)
+- [Step 2: Installation and Configuration of ZSH in Windows](#step-2-installation-and-configuration-of-zsh-in-windows)
+  - [2.1: Download ZSH](#21-download-zsh)
+  - [2.2: Install ZSH](#22-install-zsh)
+  - [2.3: Verify the ZSH Installation](#23-verify-the-zsh-installation)
+  - [2.4: Set ZSH as the Default Shell](#24-set-zsh-as-the-default-shell)
+  - [2.5: Fix Displaying of Unexpected Characters](#25-fix-displaying-of-unexpected-characters)
+- [Step 3: Installation and Configuration of Oh My ZSH! on Windows](#step-3-installation-and-configuration-of-oh-my-zsh-on-windows)
+  - [3.1: Installation of Oh My ZSH!](#31-installation-of-oh-my-zsh)
+  - [3.2: Customization of Oh My ZSH!](#32-customization-of-oh-my-zsh)
+    - [Fonts](#fonts)
+    - [Theme](#theme)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
 Are you tired of the mundane Windows command prompt?
 
-Do you yearn for the flexibility and customization of ZSH but don't
+Do you yearn for the powerful Linux terminal, but don't
 want to deal with the complexities of `WSL` (Windows Subsystem for Linux)?
 
 Well, rejoice, fellow developers, for there is a solution! With the
-combination of Git Bash for Windows, ZSH, and Oh My ZSH, you can transform your Windows command line experience into
-something truly remarkable.
+combination of:
+1. [Git Bash for Windows](https://git-scm.com/downloads)
+2. [ZSH](https://www.zsh.org/)
+3. [Oh My ZSH!](https://ohmyz.sh/)
+
+you can transform your Windows command line experience into something truly remarkable.
 
 In this guide, we'll walk you through the installation and configuration of ZSH and Oh My ZSH on Windows, so you can
 enjoy the power and flexibility of these tools without leaving the comfort of your Windows environment.
@@ -55,24 +62,17 @@ enjoy the power and flexibility of these tools without leaving the comfort of yo
 
 `ZSH`, or ***Z Shell***, is a powerful command interpreter for UNIX-like operating systems. It offers advanced features
 such as
-improved tab completion, spelling correction, and extensive customization options. It's no wonder that many developers
-swear by ZSH as their preferred shell.
+improved tab completion, spelling correction, and extensive customization options.
 
-### Supercharge ZSH with Oh My ZSH!
+### Oh My ZSH!: ZSH Supercharged
 
 ![Oh My ZSH!](img/omz-eastwood.png)
 *Image description: Oh My ZSH! logo featuring a cute cartoon character with a command prompt.*
 
 But what truly takes ZSH to the next level is Oh My ZSH! This open-source framework for managing ZSH configurations
-comes packed with a plethora of themes, plugins, and helpers. Whether you're a seasoned developer or just getting
-started, Oh My ZSH! will undoubtedly enhance your command line experience.
+comes packed with a plethora of themes, plugins, and helpers.
 
-## Installation and Configuration of ZSH in Windows
-
-Now that we understand the components, let's get down to business. Here's how you can install and configure ZSH and Oh
-My ZSH! on your Windows machine without the need for WSL.
-
-### Install Git + Git Bash for Windows
+## Step 1: Install Git + Git Bash for Windows
 
 If you haven't already, download and install Git for Windows from the
 official website. This will give you access to Git Bash, which serves as the entry point for ZSH. You can find the
@@ -91,13 +91,18 @@ default in the Settings.
 ![Git Bash in Windows Terminal](img/git_bash_default_terminal.png)
 *Image description: Selecting Git Bash as a terminal profile*
 
-### Download ZSH
+## Step 2: Installation and Configuration of ZSH in Windows
+
+Now that we understand the components, let's get down to business. Here's how you can install and configure ZSH and Oh
+My ZSH! on your Windows machine without the need for WSL.
+
+### 2.1: Download ZSH
 
 Once Bash for Windows is set up, it is time to install ZSH:
 Download the latest MSYS2 zsh package from the MSYS2 package repository. The file will be named
 like: `zsh-#.#-#-x86_64.pkg.tar.zst`. You can find the latest version [here](https://packages.msys2.org/package/zsh).
 
-### Install ZSH
+### 2.2: Install ZSH
 
 Extract the contents of the zip file (which will include `etc` and `usr` directories) into your `Git
 Bash`
@@ -105,11 +110,11 @@ installation directory. This will be in `C:\Program Files\Git`. You should merge
 asked (
 **no files should be getting overridden**).
 
-### Verify the ZSH Installation
+### 2.3: Verify the ZSH Installation
 
 Open Git Bash and run `zsh --version` to ensure that ZSH is installed correctly.
 
-### Set ZSH as the Default Shell
+### 2.4: Set ZSH as the Default Shell
 
 After installation, set ZSH as your default shell by appending the following to
 your `C:\Users\<your user name>\.bashrc` file:
@@ -120,7 +125,7 @@ your `C:\Users\<your user name>\.bashrc` file:
    fi
    ```
 
-### Fix Displaying of Unexpected Characters
+### 2.5: Fix Displaying of Unexpected Characters
 
 Fix the displaying of garbled characters on terminal by appending this line in
 your `C:\Users\<your user name>\.bashrc` file:
@@ -131,12 +136,12 @@ your `C:\Users\<your user name>\.bashrc` file:
 
 Close and reopen the terminal, to save those changes. The first time ZSH will ask for some files creation.
 
-## Installation and Configuration of Oh My ZSH! on Windows
+## Step 3: Installation and Configuration of Oh My ZSH! on Windows
 
 As we said earlier, **Oh My ZSH!** is the cherry on top of the **ZSH** cake. Let's see how you can install and configure
 it on your Windows machine.
 
-### Installation of Oh My ZSH!
+### 3.1: Installation of Oh My ZSH!
 
 **Install Oh My ZSH!**: With ZSH in place, installing Oh My ZSH! is a breeze. Simply run:
 
@@ -144,24 +149,25 @@ it on your Windows machine.
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Customization of Oh My ZSH!
+### 3.2: Customization of Oh My ZSH!
 
 #### Fonts
 
 Download and install manually
 the [Meslo Nerd Fonts](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) to include
-all glyphs and symbols that `Powerlevel10k` may need
+all glyphs and symbols that `Powerlevel10k` may need.
 
 #### Theme
 
 There are a lot of themes, with [Powerlevel10k](https://github.com/romkatv/powerlevel10k) being the most popular and
-powerful. To install it, run:
+powerful. To install it, check the instructions [here](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation).
 
 ## Conclusion
 
 Congratulations! You've now unlocked the full potential of ZSH and Oh My ZSH! on Windows. With its advanced features and
 endless customization options, ZSH is sure to revolutionize your command line workflow. So why wait? Dive in today and
 elevate your development experience like never before.
+
 
 ### SEO Keywords:
 
