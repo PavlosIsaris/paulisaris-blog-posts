@@ -1,11 +1,11 @@
 ---
-title: "Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!"
+title: "Make Windows Terminal Awesome with ZSH and Oh My ZSH!"
 date: "2024-05-15"
 tags: [ tools,productivity ]
 image: img/zsh_for_windows_post_cover.jpg
 ---
 
-# Windows Command Line Revolution: Make Windows Terminal Awesome with ZSH and Oh My ZSH!
+# Make Windows Terminal Awesome with ZSH and Oh My ZSH!
 
 *article photo Photo by <a href="https://unsplash.com/@andrewtneel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Neel</a> on <a href="https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
 
