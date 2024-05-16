@@ -155,7 +155,7 @@ all glyphs and symbols that `Powerlevel10k` may need
 #### Theme
 
 There are a lot of themes, with [Powerlevel10k](https://github.com/romkatv/powerlevel10k) being the most popular and
-powerful. To install it, run:
+powerful. To install it, check the instructions [here](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation).
 
 ## Conclusion
 
