@@ -1,18 +1,16 @@
 ---
 title: "Creating a pagination component in Vue.js"
 date: "2019-10-12"
-tags: [javascript,tutorials,programming]
+tags: [ javascript,tutorials,programming ]
 image: img/posts/creating_a_pagination_component_in_vue.jpg
 ---
 
+## Introduction
 
+post photo by [pexels](https://www.pexels.com/)
 
-# Introduction
-
- post photo by [pexels](https://www.pexels.com/)
-
-[Vue.js](https://vuejs.org/v2/guide/) is a progressive JavaScript framework that allows you to create compelling 
-user interfaces efficiently and easily. 
+[Vue.js](https://vuejs.org/v2/guide/) is a progressive JavaScript framework that allows you to create compelling
+user interfaces efficiently and easily.
 
 In this post, we are going to create a pagination component, able to have a dynamic number
 of steps!
@@ -21,9 +19,10 @@ Our final application will look like this:
 
 ![Example pagination component](https://raw.githubusercontent.com/PavlosIsaris/Vue.js-pagination-example/master/public/img/example2.gif)
 
-# Project set up
+## Project set up
 
 use the vue cli to create out app:
+
 ```bash
 npm install -g @vue/cli
 ```
@@ -34,7 +33,7 @@ Next, we make use of the CLI to create all the boilerplate for our app:
 vue create pagination-component-vue-example
 ```
 
-In order to verify that the initialization part was successfully completed, 
+In order to verify that the initialization part was successfully completed,
 let's go into our project's directory and `serve` our app:
 
 ```bash
@@ -42,10 +41,8 @@ cd pagination-component-vue-example
 npm run serve
 ```
 
-If everything goes as planned, we will receive no error messages, and will 
+If everything goes as planned, we will receive no error messages, and will
 see the Vue.js default page upon navigating to [http://localhost:8080/](http://localhost:8080/):
-
-
 
 Vue runs some initialization commands, and our project has been created.
 
@@ -57,7 +54,7 @@ And we will use the app component in order to test it.
 
 First thing first, let's get rid of the `src/components/HelloWorld.vue`.
 
-We are going to create a `src/components/PaginationComponent.vue` which will hold 
+We are going to create a `src/components/PaginationComponent.vue` which will hold
 the logic for our pagination component.
 
 In this tutorial, I will use [Bootstrap](https://getbootstrap.com/) in order to
@@ -66,6 +63,7 @@ style the HTML in a clean way, but feel totally free to skip this step (or use a
 Change `src/App.vue` to reflect the following:
 
 ```vue
+
 <template>
   <div id="app">
     <pagination-component></pagination-component>
@@ -73,15 +71,15 @@ Change `src/App.vue` to reflect the following:
 </template>
 
 <script>
-import PaginationComponent from './components/PaginationComponent.vue'
-import 'bootstrap';
+  import PaginationComponent from './components/PaginationComponent.vue'
+  import 'bootstrap';
 
-export default {
-  name: 'app',
-  components: {
-    PaginationComponent
+  export default {
+    name: 'app',
+    components: {
+      PaginationComponent
+    }
   }
-}
 </script>
 
 <style>
@@ -93,19 +91,21 @@ export default {
 For the time being, we can leave our `src/components/PaginationComponent.vue` empty and dumb:
 
 ```vue
+
 <template>
-   I'm an example component.         
+  I'm an example component.
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+  export default {
+    mounted() {
+      console.log('Component mounted.')
     }
+  }
 </script>
 
 ```
+
 # Designing our pagination component
 
 Now, we need to converge on what our pagination component should do, what it's limitations would be,
@@ -125,39 +125,41 @@ be passed from the app component own to the pagination component.
 So, let's change our `App.vue` to reflect the following:
 
 ```vue
+
 <template>
   <div id="app">
     <pagination-component></pagination-component>
   </div>
 </template>
 <script>
-import PaginationComponent from './components/PaginationComponent.vue'
-import 'bootstrap';
-export default {
-  name: 'app',
-  components: {
-    PaginationComponent
-  },
-  data() {
-    return {
-      steps: [
-        {
-          title: 'Introduction',
-          allowNext: false
-        }, {
-          title: 'Second',
-          allowNext: false
-        }, {
-          title: 'Third',
-          allowNext: false
-        }, {
-          title: 'Final',
-          allowNext: false
-        }
-      ]
+  import PaginationComponent from './components/PaginationComponent.vue'
+  import 'bootstrap';
+
+  export default {
+    name: 'app',
+    components: {
+      PaginationComponent
+    },
+    data() {
+      return {
+        steps: [
+          {
+            title: 'Introduction',
+            allowNext: false
+          }, {
+            title: 'Second',
+            allowNext: false
+          }, {
+            title: 'Third',
+            allowNext: false
+          }, {
+            title: 'Final',
+            allowNext: false
+          }
+        ]
+      }
     }
   }
-}
 </script>
 ```
 
@@ -165,7 +167,7 @@ We constructed a `steps` array, which will define the different "pages" in the p
 The `allowNext` property can define whether we would like the user to be able to go to the next step by clicking on
 the pagination link.
 
-# Dynamic number of slots 
+## Dynamic number of slots
 
 Next, we would like to hae a way of defining a <b>dynamic</b> number of slots in the pagination
 component, so that we can pass as many steps as we want.
@@ -176,20 +178,18 @@ Before that, let's redesign our pagination component to reflect the following:
 As we can see here, we use the `steps` prop in order to show the pgination header link (as a
 bootstrap breadcrumb item), as well as the corresponding Vue `slot`.
 
-# Creating the dynamic slots
+## Creating the dynamic slots
 
-Now, its time to tie it all together! 
+Now, it's time to tie it all together!
 Update `App.vue` to reflect the following:
-
 
 {{< gist PavlosIsaris 04c7447f95a58d35f454ea2e7e739711 >}}
 
-As you can see, we pass a dynamic number of `template` components, that will serve as each 
+As you can see, we pass a dynamic number of `template` components, that will serve as each
 of the steps' content. The limitation here is that the number of the templates should be equal to
 the number of the steps that we create in the `data` section of `App.vue`.
 
-
-# Example Usage
+## Example Usage
 
 ![Example pagination component](https://raw.githubusercontent.com/PavlosIsaris/Vue.js-pagination-example/master/public/img/example2.gif)
 
